@@ -6,6 +6,7 @@ import os
 from enum import Enum
 from operator import itemgetter
 from collections import defaultdict
+
 class Point(object):
     def __init__(self, x, y, numpoints):
         self.x = x
