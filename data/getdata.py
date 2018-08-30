@@ -11,4 +11,3 @@ zipfile = ZipFile(BytesIO(resp))
 with open(dst, 'w') as f:
     for line in zipfile.open('GeoLite2-City-CSV_20180807/GeoLite2-City-Blocks-IPv6.csv').readlines():
         f.write(line.decode('utf-8'))
-
