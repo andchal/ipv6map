@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>IPv6 Heatmap Demo</title>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css">
+    <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+    <style>
+        #map { width: 800px; height: 600px; }
+        body { font: 16px/1.4 "Helvetica Neue", Arial, sans-serif; }
+        .ghbtns { position: relative; top: 4px; margin-left: 5px; }
+        a { color: #0077ff; }
+    </style>
+</head>
+<body>
+
+<p>
+    A demo showing a heatmap of all IPv6 addresses in the world.
+</p>
+
+<div id="map" class="leaflet-container leaflet-fade-anim" style="position: relative;" tabindex="0"><div class="leaflet-map-pane" style="transform: translate3d(0px, 0px, 0px);"><div class="leaflet-tile-pane"><div class="leaflet-layer"><div class="leaflet-tile-container"></div><div class="leaflet-tile-container leaflet-zoom-animated"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; transform: translate3d(268px, 254px, 0px);" src="http://a.tile.osm.org/12/4044/2514.png"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; transform: translate3d(268px, -2px, 0px);" src="http://c.tile.osm.org/12/4044/2513.png"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; transform: translate3d(12px, 254px, 0px);" src="http://c.tile.osm.org/12/4043/2514.png"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; transform: translate3d(524px, 254px, 0px);" src="http://b.tile.osm.org/12/4045/2514.png"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; transform: translate3d(268px, 510px, 0px);" src="http://b.tile.osm.org/12/4044/2515.png"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; transform: translate3d(12px, -2px, 0px);" src="http://b.tile.osm.org/12/4043/2513.png"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; transform: translate3d(524px, -2px, 0px);" src="http://a.tile.osm.org/12/4045/2513.png"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; transform: translate3d(12px, 510px, 0px);" src="http://a.tile.osm.org/12/4043/2515.png"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; transform: translate3d(524px, 510px, 0px);" src="http://c.tile.osm.org/12/4045/2515.png"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; transform: translate3d(-244px, 254px, 0px);" src="http://b.tile.osm.org/12/4042/2514.png"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; transform: translate3d(780px, 254px, 0px);" src="http://c.tile.osm.org/12/4046/2514.png"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; transform: translate3d(-244px, -2px, 0px);" src="http://a.tile.osm.org/12/4042/2513.png"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; transform: translate3d(780px, -2px, 0px);" src="http://b.tile.osm.org/12/4046/2513.png"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; transform: translate3d(-244px, 510px, 0px);" src="http://c.tile.osm.org/12/4042/2515.png"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; transform: translate3d(780px, 510px, 0px);" src="http://a.tile.osm.org/12/4046/2515.png"></div></div></div><div class="leaflet-objects-pane"><div class="leaflet-shadow-pane"></div><div class="leaflet-overlay-pane"><canvas class="leaflet-heatmap-layer leaflet-layer leaflet-zoom-animated" style="transform-origin: 50% 50% 0px; transform: translate3d(0px, 0px, 0px);" width="800" height="600"></canvas></div><div class="leaflet-marker-pane"></div><div class="leaflet-popup-pane"></div></div></div><div class="leaflet-control-container"><div class="leaflet-top leaflet-left"><div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="#" title="Zoom in">+</a><a class="leaflet-control-zoom-out" href="#" title="Zoom out">-</a></div></div><div class="leaflet-top leaflet-right"></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-right"><div class="leaflet-control-attribution leaflet-control"><a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> | © <a href="http://osm.org/copyright">OpenStreetMap</a> contributors</div></div></div></div>
+
+
+<!-- <script src="../node_modules/simpleheat/simpleheat.js"></script>
+<script src="../src/HeatLayer.js"></script> -->
+
+<script src="../static/js/Leaflet.heat/dist/leaflet-heat.js"></script>
+<!--
+<script src="../static/js/map.js"></script>
+-->
+<script src="http://leaflet.github.io/Leaflet.markercluster/example/realworld.10000.js"></script>
+<script src="../static/js/map.js"></script
+</body>
+</html>
