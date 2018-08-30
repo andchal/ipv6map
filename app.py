@@ -4,6 +4,7 @@ from flask import Flask, jsonify, make_response, request, render_template
 import os
 
 app = Flask(__name__)
+app.config.update(dict(SECRET_KEY='development key'))
 
 points = readPointFile(os.path.join(os.path.dirname(__file__), 'data/ipv6data.csv'))
 tree = RangeTree()
